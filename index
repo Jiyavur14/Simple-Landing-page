@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Landing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .content {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Simple Landing Page</h1>
+    </header>
+    
+    <div class="container">
+        <section class="content">
+            <h2>Welcome to Our Page</h2>
+            <p>This is a simple landing page created using only HTML. You can add more content here to describe your product or service.</p>
+            <p>Feel free to customize this template further with CSS and add JavaScript for interactivity.</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Simple Landing Page. All rights reserved.</p>
+    </footer>
+</body>
+</html>
